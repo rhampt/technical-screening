@@ -1,0 +1,52 @@
+{
+  "coord": {
+    "lon": -71.0598,
+    "lat": 42.3584
+  },
+  "weather": [
+    {
+      "id": 500,
+      "main": "Rain",
+      "description": "light rain",
+      "icon": "10d"
+    },
+    {
+      "id": 701,
+      "main": "Mist",
+      "description": "mist",
+      "icon": "50d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 48.06,
+    "feels_like": 45.21,
+    "temp_min": 45,
+    "temp_max": 51.01,
+    "pressure": 1018,
+    "humidity": 93
+  },
+  "visibility": 1609,
+  "wind": {
+    "speed": 3.44,
+    "deg": 10
+  },
+  "rain": {
+    "1h": 0.21
+  },
+  "clouds": {
+    "all": 90
+  },
+  "dt": 1616669867,
+  "sys": {
+    "type": 1,
+    "id": 3486,
+    "country": "US",
+    "sunrise": 1616668701,
+    "sunset": 1616713304
+  },
+  "timezone": -14400,
+  "id": 4930956,
+  "name": "Boston",
+  "cod": 200
+}

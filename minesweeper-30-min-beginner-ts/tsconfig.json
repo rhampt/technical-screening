@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "lib": ["esnext", "dom"],
+    "allowJs": true,
+    "target": "es5"
+  },
+  "include": ["**/*.ts"]
+}

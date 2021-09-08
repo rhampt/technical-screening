@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  margin: 20px 30px 0;
+  height: fit-content;
+  min-width: 320px;
+  background-color: #d4d9f9;
+  
+  .topSection {
+    display: flex;
+    justify-content: space-between;
+    .location {
+      display: flex;
+      align-items: center;
+      .locationIcon {
+        color: #000;
+        font-size: 25px;
+      }
+      .locationName {
+        color: #000;
+        font-size: 30px;
+        margin-left: 2px;
+      }
+    }
+  }
+  .iconSection {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    .icon {
+      position: relative;
+    }
+    .temp {
+      position: relative;
+      font-size: 30px; 
+    }
+    .mainInfo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: 13px;
+      line-height: 16px;
+      margin-left: 15px;
+      font-weight: 700;
+    }
+  }
+  .detailsSection {
+    display: flex;
+    justify-content: center;
+    .innerContainer {
+      width:  150px;
+      font-weight: 700;
+    }
+    .detail {
+      display: flex;
+      .detailLabel {
+        width: 90px;
+      }
+      .detailValue {
+        flex: 1;
+      }
+    }
+  }
+}

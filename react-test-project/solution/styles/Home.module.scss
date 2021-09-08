@@ -1,0 +1,70 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .main {
+    padding: 2rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    .content {
+      flex: 1;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      .formContainer {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        padding: 20px;
+      }
+    }
+
+    .title {
+      line-height: 1.15;
+      font-size: 2rem;
+      text-align: center;
+      margin: 1rem 1rem 2rem 1rem;
+    }
+    
+    .errorMessage {
+      color: red;
+      text-align: center;
+    }
+  }
+  
+  .footer {
+    width: 100%;
+    height: 40px;
+    font-size: 12px;
+    border-top: 1px solid #eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .formField {
+    margin-bottom: 20px;
+    &.tempUnit {
+      flex-direction: row;
+      align-items: center;
+      padding-left: 14px;
+
+      label {
+        margin-right: 10px;
+      }
+    }
+  }
+  
+  button.submit {
+    margin-top: 20px;
+  }
+}
