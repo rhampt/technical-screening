@@ -2,7 +2,7 @@
 
 ### Context
 
-ICS has a client named Voomove. Voomove's business is complex and has many moving pieces, people don't always think about the complexity of shipping vehicles across country. One thing that we need to consider is that weather impacts our delivery times. If it rains, snows, or is windy, that may impact when a customer receives their delivery. We've decided to create our own weather app so that our driver's can get the weather information they need, customized to their needs. Since it's brand new, the functionality will be basic - but we will iterate on this over time!
+`Company` has a client named Voomove. Voomove's business is complex and has many moving pieces, people don't always think about the complexity of shipping vehicles across country. One thing that we need to consider is that weather impacts our delivery times. If it rains, snows, or is windy, that may impact when a customer receives their delivery. We've decided to create our own weather app so that our driver's can get the weather information they need, customized to their needs. Since it's brand new, the functionality will be basic - but we will iterate on this over time!
 
 ### Product Requirements
 
